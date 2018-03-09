@@ -11,7 +11,7 @@ namespace B2
     {
         static void Main(string[] args)
         {
-            //Bài 2
+            //Bài 2 T1
             Console.Write("Nhap Domain Hoac IP: ");
             string hn = Console.ReadLine();
             IPHostEntry iphe = Dns.Resolve(hn);
