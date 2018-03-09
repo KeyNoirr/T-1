@@ -11,7 +11,6 @@ namespace B1
     {
         static void Main(string[] args)
         {
-            //Bài 1
             string hn = Dns.GetHostName();
             Console.Write("Host Name: ", hn);
             IPHostEntry iphe = Dns.Resolve(hn);
